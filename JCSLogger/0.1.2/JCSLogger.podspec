@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "JCSLogger library"
   spec.homepage     = "https://www.loggre.com"
   spec.author       = { "Jaanus Siim" => "jaanus@jaanussiim.com" }
-  spec.source       = { :git => "git@bitbucket.org:jaanussiim/ios-logger.git", :tag => v#{spec.version} }
+  spec.source       = { :git => "git@bitbucket.org:jaanussiim/ios-logger.git", :tag => "v#{spec.version}" }
   spec.license      = 'BSD'
   spec.requires_arc = true
   spec.source_files = 'JSLogger/**/*.{h,m}'
